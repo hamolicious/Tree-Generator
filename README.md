@@ -1,5 +1,7 @@
 # Tree Generator
-A tree generator I wrote in Python 3.8 and PyGame
+A tree generator I wrote in Python 3.8 and PyGame, the sliders are from <a href="https://github.com/AustL">AustL's</a> <a href="https://github.com/AustL/PygameWidgets">PygameWidgets</a> repo.
+
+<img src="">
 
 <strong>Required</strong><br>
 Python 2.7-3.8<br>
