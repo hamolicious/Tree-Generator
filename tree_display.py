@@ -1,3 +1,4 @@
+import os
 import pygame
 from vector import Color
 from time import time
@@ -32,6 +33,11 @@ trees = [create_tree_surface() for _ in range(num_trees)]
 end_tree_generation = time()
 
 print(f'Average time to generate 1 tree: {(end_tree_generation - start_tree_generation) / num_trees} seconds')
+
+if not os.path.exists('trees') : os.mkdir('trees')
+for index, image in enumerate(trees):
+	pygame.image.save(image, f'trees/tree-{index}.png')
+
 
 current_tree = trees[0]
 index = 0
