@@ -15,11 +15,11 @@ delta_time = 0 ; frame_start_time = 0
 
 def create_tree_surface():
 	tree = TreeGenerator(100, leaf_colors=[
-		Color.from_hex('#ffb0bf').get(),
-		Color.from_hex('#ff82bd').get(),
-		Color.from_hex('#d74ac7').get(),
-		Color.from_hex('#a825ba').get(),
-		Color.from_hex('#682b9c').get(),
+		'#ffb0bf',
+		'#ff82bd',
+		'#d74ac7',
+		'#a825ba',
+		'#682b9c',
 	])
 	surface = tree.bake()
 	return surface
